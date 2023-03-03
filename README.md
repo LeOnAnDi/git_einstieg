@@ -12,6 +12,10 @@ Der aktuelle Ordner soll Git Repository Funktionen erhalten
 Ein Unterordner soll als Repository initialisiert werden
 
     git init ORDNER
+    
+Es kann notwendig sein, dass der Branch von 'master' auf 'main' geändert werden muss
+
+    git branch -M main
 
 
 ## Grundkonfiguration von Git
